@@ -8,7 +8,7 @@
             </tr>
             <tr>
             <td class="key">
-                    <div class="title">Party</div>
+                    <div>Party</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Cand_Party_Affiliation}}
@@ -16,7 +16,7 @@
             </tr>
             <tr>
             <td class="key">
-                    <div class="title">State</div>
+                    <div>State</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Cand_State}}
@@ -24,7 +24,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">City</div>
+                    <div>City</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Cand_City}}
@@ -40,7 +40,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Address</div>
+                    <div>Address</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Cand_Street_1}}
@@ -48,7 +48,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Coverage Start Date</div>
+                    <div>Coverage Start Date</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Coverage_Start_Date}}
@@ -61,7 +61,7 @@
             </tr>
              <tr>
                 <td class="key">
-                    <div class="title">Total Campaign Contributions</div>
+                    <div>Total Campaign Contributions</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Total_Contribution}}
@@ -69,7 +69,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Total Disbursement</div>
+                    <div>Total Disbursement</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Total_Disbursement}}
@@ -77,7 +77,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Total Receipt</div>
+                    <div>Total Receipt</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Total_Receipt}}
@@ -85,7 +85,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Cash on Hand</div>
+                    <div>Cash on Hand</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Cash_On_Hand_COP}}
@@ -93,7 +93,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Individual Contribution</div>
+                    <div>Individual Contribution</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Individual_Contribution}}
@@ -101,7 +101,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Party Committee Contribution</div>
+                    <div>Party Committee Contribution</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Party_Committee_Contribution}}
@@ -109,7 +109,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Other Committee Contribution</div>
+                    <div>Other Committee Contribution</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Other_Committee_Contribution}}
@@ -117,7 +117,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Individual Itemized Contribution</div>
+                    <div>Individual Itemized Contribution</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Individual_Itemized_Contribution}}
@@ -125,7 +125,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Individual Unitemized Contribution</div>
+                    <div>Individual Unitemized Contribution</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Individual_Unitemized_Contribution}}
@@ -133,7 +133,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Cand Contribution</div>
+                    <div>Cand Contribution</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Cand_Contribution}}
@@ -141,7 +141,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Offsets To Operating Expenditure</div>
+                    <div>Offsets To Operating Expenditure</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Offsets_To_Operating_Expenditure}}
@@ -149,7 +149,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Other Receipts</div>
+                    <div>Other Receipts</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Other_Receipts}}
@@ -157,7 +157,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Operating Expenditure</div>
+                    <div>Operating Expenditure</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Operating_Expenditure}}
@@ -165,7 +165,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Individual Refund</div>
+                    <div>Individual Refund</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Individual_Refund}}
@@ -173,7 +173,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Total Contribution Refund</div>
+                    <div>Total Contribution Refund</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Total_Contribution_Refund}}
@@ -181,7 +181,7 @@
             </tr>
             <tr>
                 <td class="key">
-                    <div class="title">Other Disbursements</div>
+                    <div>Other Disbursements</div>
                 </td>
                 <td id="rightVal">
                     {{selected.Other_Disbursements}}
@@ -203,9 +203,8 @@
                 showImage: false
             }
         },
-        updated() {title
+        updated() {
             this.showImage=false;
-
         }
     }
 </script>

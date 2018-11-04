@@ -55,10 +55,12 @@
         margin-right: -10px;
         padding:0;
     }
+    
     body {
         margin: 0;
         padding: 0;
     }
+
     #header {
         height: 100px;
         background-image: url("http://s3.amazonaws.com/wallpapers2/wallpapers/images/000/000/366/original/353.jpg?1487671563");
@@ -72,6 +74,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
+
     #footer {
         position: fixed;
         left: 0;
