@@ -21,7 +21,6 @@
         
         <div id="footer">
             <h4>Gregory Prouty . Nov 2 2018 </h4>
-            <a href="https://github.com/GregoryProuty">github</a>
         </div>
     </div>
 </template>
@@ -48,7 +47,6 @@
         }
     }
 </script>
-2018 Congressional Candidate Explorer
 <style scoped>
     #app {
         margin-top: -10px;
@@ -84,7 +82,7 @@
         bottom: 0;
         width: 100%;
         height: 50px;
-        background-color: 20114751;
+        background-color: #414751;
         color: white;
         text-align: center;
     }
