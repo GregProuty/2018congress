@@ -14,7 +14,7 @@
             </div>
             <div id="leftcolumn">
                 <div class="innertube">
-                    <munro-grid @candSelected="candSelected"></munro-grid>
+                    <grid @candSelected="candSelected"></grid>
                 </div>
             </div>   
         </div>
@@ -26,7 +26,7 @@
 </template>
 
 <script>
-    import MunroGrid from './components/Grid';
+    import Grid from './components/Grid';
     import Detail from './components/Detail';
 
     export default {
@@ -37,7 +37,7 @@
             }
         },
         components: {
-            MunroGrid,
+            Grid,
             Detail
         },
         methods: {
@@ -58,7 +58,6 @@
     body {
         margin: 0;
         padding: 0;
-        /* line-height: 1.5em; */
     }
     #header {
         height: 100px;
@@ -84,22 +83,16 @@
         text-align: center;
     }
 
-    /* #footer h4 {
-        text
-    } */
-
     #alphaWrapper{
         margin: 20px;
         
     }
     #contentwrapper {
         float: left;
-        /* margin-left: 10px; */
         width: 100%;
     }
 
     #contentcolumn {
-        /* margin-top: 20px; */
         margin-left: 60%;
         max-width: 40%;
     }
@@ -107,7 +100,6 @@
     #leftcolumn {
         float: left;
         width: 60%;
-        /* margin-top: 20px; */
         margin-left: -100%;
     }
 

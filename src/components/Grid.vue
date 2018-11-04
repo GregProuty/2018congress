@@ -13,7 +13,7 @@
     import 'whatwg-fetch'
     import staticData from '../../static/mini.json';
     export default {
-        name: 'munro-grid',
+        name: 'grid',
         data () {
             return {
                 gridOptions: null,
@@ -40,11 +40,7 @@
                     query = {name: params.data.Cand_Name};
                 Object.keys(query).forEach(key => url.searchParams.append(key, query[key]))
 
-                fetch(url,
-                        {
-                            method: 'GET',
-                            credentials: 'same-origin'
-                        })
+                fetch(url, {method: 'GET', credentials: 'same-origin'})
                 .then((response) => {
                     return response.json()
                 })
@@ -71,7 +67,6 @@
 
 <style scoped>
     .grid {
-        /* max-height: 90vh; */
         height: 720px;
     }
 </style>
