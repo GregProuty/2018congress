@@ -225,8 +225,10 @@
     }
 
     .table {
+        font-family: Arial;
         border: 1px solid #999999;
         table-layout: fixed;
+        height: 720px;
         width: 100%;
     }
 

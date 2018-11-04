@@ -32,7 +32,7 @@
                     {headerName: "State", field: "Cand_State"},
                     {headerName: "City", field: "Cand_City"},
                     {headerName: "Status", field: "Cand_Incumbent_Challenger_Open_Seat"},
-                    {headerName: "$ Contributions", field: "Total_Contribution", width: 200}
+                    {headerName: "$ Contributions", field: "Total_Contribution", width: 200, cellStyle: {textAlign: "right"}}
                 ];
             },
             onRowClicked(params) {
@@ -69,4 +69,5 @@
     .grid {
         height: 720px;
     }
+
 </style>

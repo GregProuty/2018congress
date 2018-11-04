@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Folders
+node_modules/
+dist/
+
+# Locked files
+*-lock.json
+
+# Other common stuff
+.grunt
+.npm
+_DELETE_node_modules/

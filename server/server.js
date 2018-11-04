@@ -1,17 +1,14 @@
 const express = require('express');
 const app = express();
 const hash = require('../static/hash.js');
-const cors = require('cors');
 const _ = require('underscore');
-
-app.use(cors());
 
 app.use('/', express.static('../dist'))
 
 app.get('/details', function (req, res) {
   let json = hash[req.query.name];
   // change 150369 to "$ 150369.00"
-  json =_.mapObject(json, (val, key) => {
+  json = _.mapObject(json, (val, key) => {
     if(typeof val === 'number' && key !== 'Cand_Zip') {
       return '$ ' + val.toFixed(2)
     }
