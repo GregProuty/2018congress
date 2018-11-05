@@ -71,7 +71,8 @@ export default {
   created() {
     this.gridOptions = {
       enableFilter: true,
-      enableSorting: true
+      enableSorting: true,
+      rowSelection: 'single'
     };
     this.gridOptions.columnDefs = this.createColDefs();
   }

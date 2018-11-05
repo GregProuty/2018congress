@@ -51,16 +51,18 @@
 </script>
 <style scoped>
     #app {
-        margin-top: -10px;
-        margin-left: -10px;
-        margin-right: -10px;
-        padding:0;
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-right: -8px;
+        /* padding:0; */
+        overflow-x: hidden;
     }
 
     body {
         margin: 0;
         padding: 0;
         font-family: Arial;
+
     }
 
     #header {
@@ -81,12 +83,10 @@
 
     #header h1 {
         margin-top: 0px;
-        margin-left: 30px;
     }
 
     #header p {
         margin-top: 0px;
-        margin-left: 30px;
     }
 
     #footer {
