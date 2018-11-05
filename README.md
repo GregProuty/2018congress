@@ -1,5 +1,7 @@
 # 2018congress
 
+A small Vue.js app for exploring data on the candidates running in the 2018 U.S. Congress Elections
+
 ## Build Setup
 
 ``` bash

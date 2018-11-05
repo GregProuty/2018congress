@@ -17,7 +17,7 @@ app.get('/details', (req, res) => {
   res.send(JSON.stringify(json));
 });
 
-app.listen(3000, () => console.log('Server running on port: 3000 \nVisit localhost:3000 in your web browser'));
+app.listen(3000, () => console.log('Server running on port: 3000 \n\nVisit localhost:3000 in your web browser'));
 
 module.exports = () => {
   const server = express();

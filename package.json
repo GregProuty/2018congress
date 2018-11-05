@@ -7,8 +7,7 @@
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "start": "node build/build.js && cd ./server && node server.js",
-    "test": "node ./node_modules/mocha/bin/mocha",
-    "testX": "mocha src/**/*.spec.js"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
   "dependencies": {
     "ag-grid": "^8.1.1",
