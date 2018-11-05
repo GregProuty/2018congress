@@ -1,7 +1,9 @@
 <template>
     <div id="app">
         <div id="header">
-            <h1>2018 Congressional Candidate Explorer</h1>
+            <h1>2018 Congress</h1>
+            <hr>
+            <p>A small Vue.js app for exploring data on the candidates running in the 2018 U.S. Congress Elections</p>
         </div>
         <div id="alphaWrapper">
             <div id="contentwrapper">
@@ -20,7 +22,7 @@
         </div>
         
         <div id="footer">
-            <h4>Gregory Prouty . Nov 2 2018 </h4>
+            <h4>Gregory Prouty . Nov 2 2018</h4>
         </div>
     </div>
 </template>
@@ -64,16 +66,27 @@
     #header {
         height: 100px;
         background-image: url("http://s3.amazonaws.com/wallpapers2/wallpapers/images/000/000/366/original/353.jpg?1487671563");
-        background-position: bottom; 
+        background-position: bottom;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-family: Arial;
+        text-align: center;
+    }
+
+    hr {
+        width: 800px;
+        margin-bottom: 20px;
     }
 
     #header h1 {
         margin-top: 0px;
         margin-left: 30px;
-        color: white;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-family: Arial;
+    }
+
+    #header p {
+        margin-top: 0px;
+        margin-left: 30px;
     }
 
     #footer {
@@ -91,6 +104,7 @@
         margin: 20px;
         
     }
+
     #contentwrapper {
         float: left;
         width: 100%;

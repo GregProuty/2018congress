@@ -7,7 +7,7 @@
                 </td>
             </tr>
             <tr>
-            <td class="key">
+                <td class="key">
                     <div>Party</div>
                 </td>
                 <td id="rightVal">
@@ -15,7 +15,7 @@
                 </td>
             </tr>
             <tr>
-            <td class="key">
+                <td class="key">
                     <div>State</div>
                 </td>
                 <td id="rightVal">
