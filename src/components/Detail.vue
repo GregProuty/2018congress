@@ -196,9 +196,7 @@
         name: 'detail',
         props: ['selected'],
         data () {
-            return {
-
-            }
+            return {}
         }
     }
 </script>
