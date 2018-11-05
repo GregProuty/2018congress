@@ -54,7 +54,6 @@
         margin-top: -8px;
         margin-left: -8px;
         margin-right: -8px;
-        /* padding:0; */
         overflow-x: hidden;
     }
 

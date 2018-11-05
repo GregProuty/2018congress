@@ -1,10 +1,10 @@
 const fs = require('fs');
-const data = require('../static/data.json')
+const data = require('../static/data.json');
 
 
-// needs to go to different file // for build scripts 
+// needs to go to different file // for build scripts
 function minifyData(data) {
-  return JSON.stringify(data.map((el,i) => ({
+  return JSON.stringify(data.map(el => ({
     'Cand_Name': el['Cand_Name'],
     'Cand_Party_Affiliation': el['Cand_Party_Affiliation'],
     'Cand_Office': el['Cand_Office'],
@@ -12,18 +12,15 @@ function minifyData(data) {
     'Cand_City': el['Cand_City'],
     'Cand_Incumbent_Challenger_Open_Seat': el['Cand_Incumbent_Challenger_Open_Seat'],
     'Total_Contribution': el['Total_Contribution']
-  })))
+  })));
 }
 
 function convertToHashMap(arr) {
   let hash = {};
-  // arr = JSON.stringify(arr)
-  console.log(Array.isArray(arr), typeof arr)
-  arr.forEach(el => {
+  arr.forEach((el) => {
     hash[el.Cand_Name] = el;
-  })
-  // console.log(hash)
-  return JSON.stringify(hash)
+  });
+  return JSON.stringify(hash);
 }
 
 
