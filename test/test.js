@@ -8,6 +8,7 @@ const chaiHttp = require('chai-http');
 let server = require('../server/server.js');
 
 server = server();
+// eslint-disable-next-line prefer-destructuring
 const expect = chai.expect;
 
 chai.use(chaiHttp);
