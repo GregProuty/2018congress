@@ -3,6 +3,7 @@ const _ = require('underscore');
 const hash = require('../static/hash.js');
 
 const app = express();
+
 app.use('/', express.static('../dist'));
 
 app.get('/details', (req, res) => {
