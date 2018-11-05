@@ -102,7 +102,6 @@
 
     #alphaWrapper{
         margin: 20px;
-        
     }
 
     #contentwrapper {
