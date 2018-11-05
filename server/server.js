@@ -23,5 +23,5 @@ app.listen(3000, () => console.log('Server running on port: 3000 \n\nVisit local
 module.exports = () => {
   const server = express();
   server.set('port', 3000);
-  return app;
+  return server;
 };
