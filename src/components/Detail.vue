@@ -188,9 +188,6 @@
                 </td>
             </tr>
         </table>
-        <div class="image-area">
-            <img v-if="showImage" class="image" :src="selected.image"/>
-        </div>
     </div>
 </template>
 
@@ -200,11 +197,8 @@
         props: ['selected'],
         data () {
             return {
-                showImage: false
+
             }
-        },
-        updated() {
-            this.showImage=false;
         }
     }
 </script>
