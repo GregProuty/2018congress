@@ -1,8 +1,6 @@
 const fs = require('fs');
 const data = require('../static/data.json');
 
-
-// needs to go to different file // for build scripts
 function minifyData(data) {
   return JSON.stringify(data.map(el => ({
     'Cand_Name': el['Cand_Name'],
@@ -22,7 +20,6 @@ function convertToHashMap(arr) {
   });
   return JSON.stringify(hash);
 }
-
 
 // fs.writeFileSync('hash.json', convertToHashMap(data))
 
