@@ -1,13 +1,14 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable-next-line no-unused-vars */
+process.env.NODE_ENV = 'test';
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 
 let server = require('../server/server.js');
 
 server = server();
-const [expect] = chai.expect;
+const expect = chai.expect;
 
 chai.use(chaiHttp);
 
