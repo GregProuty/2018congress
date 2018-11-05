@@ -50,17 +50,17 @@ export default {
     let url = new URL("http://localhost:3000/details"),
         query = { name: params.data.Cand_Name };
         
-      Object.keys(query).forEach(key =>
-        url.searchParams.append(key, query[key])
-      );
+    Object.keys(query).forEach(key =>
+      url.searchParams.append(key, query[key])
+    );
 
-      fetch(url, { method: "GET", credentials: "same-origin" })
-        .then(response => {
-          return response.json();
-        })
-        .then(json => {
-          this.$emit("candSelected", json);
-        });
+    fetch(url, { method: "GET", credentials: "same-origin" })
+      .then(response => {
+        return response.json();
+      })
+      .then(json => {
+        this.$emit("candSelected", json);
+      });
     },
     onRowDataChanged() {
       Vue.nextTick(() => {
