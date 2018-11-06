@@ -46,7 +46,7 @@ export default {
       ];
     },
     onRowClicked(params) {
-    //   let url = new URL("./details", document.location),
+      // let url = new URL("/details", document.location),
     let url = new URL("http://localhost:3000/details"),
         query = { name: params.data.Cand_Name };
         
